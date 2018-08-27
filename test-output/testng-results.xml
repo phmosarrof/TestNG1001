@@ -1,23 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite-TestNG Example" duration-ms="33" started-at="2018-08-27T21:41:45Z" finished-at="2018-08-27T21:41:45Z">
+  <suite name="Suite-TestNG Example" duration-ms="40" started-at="2018-08-27T21:57:02Z" finished-at="2018-08-27T21:57:03Z">
     <groups>
     </groups>
-    <test name="TestCase of TestNG" duration-ms="33" started-at="2018-08-27T21:41:45Z" finished-at="2018-08-27T21:41:45Z">
+    <test name="TestCase of TestNG" duration-ms="40" started-at="2018-08-27T21:57:02Z" finished-at="2018-08-27T21:57:03Z">
       <class name="testExample.TestNG01">
-        <test-method status="PASS" signature="testCase02()[pri:0, instance:testExample.TestNG01@6cc4c815]" name="testCase02" duration-ms="2" started-at="2018-08-27T21:41:45Z" finished-at="2018-08-27T21:41:45Z">
+        <test-method status="PASS" signature="testCase01()[pri:0, instance:testExample.TestNG01@36d4b5c]" name="testCase01" duration-ms="8" started-at="2018-08-27T21:57:02Z" finished-at="2018-08-27T21:57:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase01 -->
+        <test-method status="PASS" signature="testCase02()[pri:0, instance:testExample.TestNG01@36d4b5c]" name="testCase02" duration-ms="2" started-at="2018-08-27T21:57:03Z" finished-at="2018-08-27T21:57:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase02 -->
-        <test-method status="PASS" signature="testCase03()[pri:0, instance:testExample.TestNG01@6cc4c815]" name="testCase03" duration-ms="1" started-at="2018-08-27T21:41:45Z" finished-at="2018-08-27T21:41:45Z">
+        <test-method status="PASS" signature="testCase03()[pri:0, instance:testExample.TestNG01@36d4b5c]" name="testCase03" duration-ms="2" started-at="2018-08-27T21:57:03Z" finished-at="2018-08-27T21:57:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase03 -->
       </class> <!-- testExample.TestNG01 -->
       <class name="testExample.TestNG02">
-        <test-method status="PASS" signature="Test05()[pri:0, instance:testExample.TestNG02@56f4468b]" name="Test05" duration-ms="9" started-at="2018-08-27T21:41:45Z" finished-at="2018-08-27T21:41:45Z">
+        <test-method status="PASS" signature="Test04()[pri:0, instance:testExample.TestNG02@6d00a15d]" name="Test04" duration-ms="1" started-at="2018-08-27T21:57:03Z" finished-at="2018-08-27T21:57:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test04 -->
+        <test-method status="PASS" signature="Test05()[pri:0, instance:testExample.TestNG02@6d00a15d]" name="Test05" duration-ms="1" started-at="2018-08-27T21:57:03Z" finished-at="2018-08-27T21:57:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test05 -->

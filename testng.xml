@@ -8,7 +8,7 @@
 			<class name="testExample.TestNG02">
 			
 			<methods>
-			<include name = "Test05"/>
+			<include name = "Test.*"/>
 			</methods> 
 			 
 			</class>

@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite-TestNG_Example">
-                    <span>C:\Users\Mosarrof Hossain\workspace\TestNG1001\testng.xml</span>
+                    <span>C:\Users\Mosarrof Hossain\workspace\TestNG1001\testng2.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +102,17 @@
                     <div class="method-list-content passed suite-Suite-TestNG_Example">
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite-TestNG_Example" title="testExample.TestNG02" hash-for-method="Test04">Test04</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite-TestNG_Example" title="testExample.TestNG02" hash-for-method="Test05">Test05</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite-TestNG_Example" title="testExample.TestNG01" hash-for-method="testCase01">testCase01</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -135,6 +145,13 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="Test04">
+                  </a> <!-- Test04 -->
+                  <span class="method-name">Test04</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="Test05">
                   </a> <!-- Test05 -->
                   <span class="method-name">Test05</span>
@@ -148,6 +165,13 @@
               <span class="class-name">testExample.TestNG01</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase01">
+                  </a> <!-- testCase01 -->
+                  <span class="method-name">testCase01</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="testCase02">
@@ -167,7 +191,7 @@
         </div> <!-- panel Suite-TestNG_Example -->
         <div panel-name="test-xml-Suite-TestNG_Example" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Mosarrof Hossain\workspace\TestNG1001\testng.xml</span>
+            <span class="header-content">C:\Users\Mosarrof Hossain\workspace\TestNG1001\testng2.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -175,17 +199,12 @@
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite-TestNG Example&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;TestCase of TestNG&quot;&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;testExample&quot;/&gt;
+    &lt;/packages&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testExample.TestNG02&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;Test05&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- testExample.TestNG02 --&gt;
-      &lt;class name=&quot;testExample.TestNG01&quot;&gt;
-        &lt;methods&gt;
-          &lt;exclude name=&quot;testCase01&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- testExample.TestNG01 --&gt;
+      &lt;class name=&quot;testExample.TestNG01&quot;/&gt;
+      &lt;class name=&quot;testExample.TestNG02&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- TestCase of TestNG --&gt;
 &lt;/suite&gt; &lt;!-- Suite-TestNG Example --&gt;
@@ -225,11 +244,11 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Test05')
-data.setCell(0, 2, 'testExample.TestNG02')
-data.setCell(0, 3, 9);
+data.setCell(0, 1, 'testCase01')
+data.setCell(0, 2, 'testExample.TestNG01')
+data.setCell(0, 3, 8);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testCase02')
 data.setCell(1, 2, 'testExample.TestNG01')
@@ -237,12 +256,20 @@ data.setCell(1, 3, 2);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'testCase03')
 data.setCell(2, 2, 'testExample.TestNG01')
-data.setCell(2, 3, 1);
+data.setCell(2, 3, 2);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Test04')
+data.setCell(3, 2, 'testExample.TestNG02')
+data.setCell(3, 3, 1);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Test05')
+data.setCell(4, 2, 'testExample.TestNG02')
+data.setCell(4, 3, 1);
 window.suiteTableData['Suite-TestNG_Example']= { tableData: data, tableDiv: 'times-div-Suite-TestNG_Example'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 12 ms</span>
+              <span class="suite-total-time">Total running time: 14 ms</span>
               <div id="times-div-Suite-TestNG_Example">
               </div> <!-- times-div-Suite-TestNG_Example -->
             </div> <!-- times-div -->
@@ -257,23 +284,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite-TestNG_Example" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testExample.TestNG02</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">Test04</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testExample.TestNG01</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">testCase01</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite-TestNG_Example" class="panel">
@@ -282,21 +295,29 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testExample.TestNG02</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">Test05</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
               <div class="chronological-class-name">testExample.TestNG01</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <span class="method-name">testCase01</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">testCase02</span>
-                <span class="method-start">11 ms</span>
+                <span class="method-start">9 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testCase03</span>
-                <span class="method-start">14 ms</span>
+                <span class="method-start">12 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testExample.TestNG02</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Test04</span>
+                <span class="method-start">17 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test05</span>
+                <span class="method-start">20 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
