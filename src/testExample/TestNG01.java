@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class TestNG01 {
 
-	//public static void main(String[] args) {
+	//public static void main(String [] args) {
 	@Test
 	public void testCase01() {
 		
