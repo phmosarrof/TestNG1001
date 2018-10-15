@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
 <suite name="Suite-TestNG Example">
-	<test thread-count="5" name="TestCase of TestNG">
+	<test name="TestCase of TestNG">
 	
 		<classes>
 		
@@ -12,15 +13,20 @@
 			</methods> 
 			 
 			</class>
+				
+			</classes>
+		</test>
+		<test name = "TestNG Project02">
+		<classes>
+		
 			
 			<class name="testExample.TestNG01">
 			
 			<methods>
-			<exclude name = "testCase01"/>
+			<exclude name = "testCase02"/>
 			</methods>  
 			
 			</class>
 		</classes>
-		
 	</test> 
 </suite> 

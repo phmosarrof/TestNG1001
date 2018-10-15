@@ -1,35 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="1" total="5" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite-TestNG Example" duration-ms="40" started-at="2018-08-27T21:57:02Z" finished-at="2018-08-27T21:57:03Z">
+  <suite name="Suite-TestNG Example" duration-ms="71" started-at="2018-09-12T18:17:19Z" finished-at="2018-09-12T18:17:19Z">
     <groups>
     </groups>
-    <test name="TestCase of TestNG" duration-ms="40" started-at="2018-08-27T21:57:02Z" finished-at="2018-08-27T21:57:03Z">
-      <class name="testExample.TestNG01">
-        <test-method status="PASS" signature="testCase01()[pri:0, instance:testExample.TestNG01@36d4b5c]" name="testCase01" duration-ms="8" started-at="2018-08-27T21:57:02Z" finished-at="2018-08-27T21:57:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase01 -->
-        <test-method status="PASS" signature="testCase02()[pri:0, instance:testExample.TestNG01@36d4b5c]" name="testCase02" duration-ms="2" started-at="2018-08-27T21:57:03Z" finished-at="2018-08-27T21:57:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase02 -->
-        <test-method status="PASS" signature="testCase03()[pri:0, instance:testExample.TestNG01@36d4b5c]" name="testCase03" duration-ms="2" started-at="2018-08-27T21:57:03Z" finished-at="2018-08-27T21:57:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase03 -->
-      </class> <!-- testExample.TestNG01 -->
+    <test name="TestCase of TestNG" duration-ms="34" started-at="2018-09-12T18:17:19Z" finished-at="2018-09-12T18:17:19Z">
       <class name="testExample.TestNG02">
-        <test-method status="PASS" signature="Test04()[pri:0, instance:testExample.TestNG02@6d00a15d]" name="Test04" duration-ms="1" started-at="2018-08-27T21:57:03Z" finished-at="2018-08-27T21:57:03Z">
+        <test-method status="PASS" signature="Test04()[pri:0, instance:testExample.TestNG02@5d5eef3d]" name="Test04" duration-ms="9" started-at="2018-09-12T18:17:19Z" finished-at="2018-09-12T18:17:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test04 -->
-        <test-method status="PASS" signature="Test05()[pri:0, instance:testExample.TestNG02@6d00a15d]" name="Test05" duration-ms="1" started-at="2018-08-27T21:57:03Z" finished-at="2018-08-27T21:57:03Z">
+        <test-method status="PASS" signature="Test05()[pri:0, instance:testExample.TestNG02@5d5eef3d]" name="Test05" duration-ms="1" started-at="2018-09-12T18:17:19Z" finished-at="2018-09-12T18:17:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test05 -->
+        <test-method status="PASS" signature="TestNG02()[pri:0, instance:testExample.TestNG02@5d5eef3d]" name="TestNG02" duration-ms="0" started-at="2018-09-12T18:17:19Z" finished-at="2018-09-12T18:17:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestNG02 -->
       </class> <!-- testExample.TestNG02 -->
     </test> <!-- TestCase of TestNG -->
+    <test name="TestNG Project02" duration-ms="4" started-at="2018-09-12T18:17:19Z" finished-at="2018-09-12T18:17:19Z">
+      <class name="testExample.TestNG01">
+        <test-method status="PASS" signature="testCase03()[pri:0, instance:testExample.TestNG01@4c70fda8]" name="testCase03" is-config="true" duration-ms="0" started-at="2018-09-12T18:17:19Z" finished-at="2018-09-12T18:17:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase03 -->
+        <test-method status="PASS" signature="testCase01()[pri:0, instance:testExample.TestNG01@4c70fda8]" name="testCase01" duration-ms="1" started-at="2018-09-12T18:17:19Z" finished-at="2018-09-12T18:17:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase01 -->
+      </class> <!-- testExample.TestNG01 -->
+    </test> <!-- TestNG Project02 -->
   </suite> <!-- Suite-TestNG Example -->
 </testng-results>

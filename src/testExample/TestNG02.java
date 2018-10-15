@@ -8,11 +8,15 @@ public class TestNG02 {
 	}
 	@Test
 	public void Test04() {
-		System.out.println("System.out.println(\"\\nThe Test is run by TestNG Framework- Test04");
+		System.out.println("\nThe Test is run by TestNG Framework- Test04");
 	}
 	@Test
 	public void Test05() {
-		System.out.println("System.out.println(\"\\nThe Test is run by TestNG Framework- Test05");
+		System.out.println("\nThe Test is run by TestNG Framework- Test05");
 	}
-}
+	@Test
+	public void TestNG02() {
+		System.out.println("\nThe Test is run by TestNG Framework- TestNG02");
+	}}
+
 
